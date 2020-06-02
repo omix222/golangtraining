@@ -8,7 +8,7 @@ import (
 )
 
 // 戻り値の型は）の後ろに書く
-func add(x int, y int) int {
+func add1(x int, y int) int {
 	return x + y
 }
 
@@ -28,7 +28,7 @@ func main() {
 	//擬似乱数を返す rand.Intn はいつも同じ数を返す
 	fmt.Println("My favarite number is ", rand.Intn(10))
 	fmt.Println(math.Pi)
-	fmt.Println("1+1= ", add(1, 1))
+	fmt.Println("1+1= ", add1(1, 1))
 	fmt.Println("1+1= ", add2(1, 1))
 
 	a, b := swap("hello", "world")
